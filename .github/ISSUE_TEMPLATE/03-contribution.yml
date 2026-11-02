@@ -1,0 +1,96 @@
+{
+  "name": "贡献记录",
+  "description": "关联成果和验证证据，申请验收",
+  "title": "[贡献] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "本表将生成公开 GitHub Issue。请只使用公开昵称和公开作品；不要填写手机号、私人邮箱、地址、身份证、密码或密钥。提交不表示获得成员资格、报酬或 Token。"
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "direction",
+      "attributes": {
+        "label": "主要建设方向",
+        "options": [
+          "DID",
+          "Capability",
+          "Reputation",
+          "Super-Agent",
+          "Guardian",
+          "Economy",
+          "Governance"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "task",
+      "attributes": {
+        "label": "任务编号或任务 Issue URL"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "claim",
+      "attributes": {
+        "label": "已确认的认领 Issue URL"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "delivery",
+      "attributes": {
+        "label": "成果链接与版本",
+        "description": "PR、提交 SHA 或可公开访问的交付物链接。"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "verification",
+      "attributes": {
+        "label": "验收标准与验证证据"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "limits",
+      "attributes": {
+        "label": "已知限制与外部材料来源"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "public-record",
+      "attributes": {
+        "label": "公开记录确认",
+        "options": [
+          {
+            "label": "我知道本表内容将公开，并已移除不应公开的信息。",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}
