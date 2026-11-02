@@ -1,0 +1,87 @@
+{
+  "name": "参与报名",
+  "description": "选择建设方向并介绍拟贡献的内容",
+  "title": "[报名] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "本表将生成公开 GitHub Issue。请只使用公开昵称和公开作品；不要填写手机号、私人邮箱、地址、身份证、密码或密钥。提交不表示获得成员资格、报酬或 Token。"
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "direction",
+      "attributes": {
+        "label": "主要建设方向",
+        "options": [
+          "DID",
+          "Capability",
+          "Reputation",
+          "Super-Agent",
+          "Guardian",
+          "Economy",
+          "Governance"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "contribution",
+      "attributes": {
+        "label": "希望贡献什么",
+        "description": "描述具体问题、拟交付内容；无需承诺尚未具备的能力。"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "availability",
+      "attributes": {
+        "label": "可投入时间",
+        "placeholder": "例如每周 2 小时，或一次性文档任务"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "experience",
+      "attributes": {
+        "label": "相关经验或公开作品"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "task",
+      "attributes": {
+        "label": "感兴趣的任务编号"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "public-record",
+      "attributes": {
+        "label": "公开记录确认",
+        "options": [
+          {
+            "label": "我知道本表内容将公开，并已移除不应公开的信息。",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}
