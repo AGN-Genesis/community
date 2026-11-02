@@ -1,0 +1,109 @@
+{
+  "name": "认领任务",
+  "description": "提交认领计划，等待维护者确认",
+  "title": "[认领] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "本表将生成公开 GitHub Issue。请只使用公开昵称和公开作品；不要填写手机号、私人邮箱、地址、身份证、密码或密钥。提交不表示获得成员资格、报酬或 Token。"
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "direction",
+      "attributes": {
+        "label": "主要建设方向",
+        "options": [
+          "DID",
+          "Capability",
+          "Reputation",
+          "Super-Agent",
+          "Guardian",
+          "Economy",
+          "Governance"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "task",
+      "attributes": {
+        "label": "任务编号或任务 Issue URL",
+        "placeholder": "AGN-001 或本仓库任务 Issue 链接"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "application",
+      "attributes": {
+        "label": "报名 Issue URL"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "plan",
+      "attributes": {
+        "label": "实施计划与交付物"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "date",
+      "attributes": {
+        "label": "预计交付日期"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "dependencies",
+      "attributes": {
+        "label": "依赖、风险或需要的协助"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "confirmation",
+      "attributes": {
+        "label": "认领边界",
+        "options": [
+          {
+            "label": "我理解需要维护者确认，提交申请不会自动获得独占认领或仓库权限。",
+            "required": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "public-record",
+      "attributes": {
+        "label": "公开记录确认",
+        "options": [
+          {
+            "label": "我知道本表内容将公开，并已移除不应公开的信息。",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}
