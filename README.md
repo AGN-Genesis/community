@@ -1,10 +1,12 @@
 # AGN · AI Guardian Network
 
+<img src="https://raw.githubusercontent.com/AGN-Genesis/.github/main/brand/agn-wordmark.svg" width="540" alt="AGN · 开放的守护网络">
+
 **人类驱动 · AI 创造 · 守护者维系**
 
 AGN（AI 守护者网络）致力于建设由人类、AI 与资源提供者共同参与的开放 AI 经济网络。当前处于设计与创世建设阶段，文档提案不代表功能已经上线。
 
-[知识库](https://agn-genesis-knowledge.grainyfir2.chatgpt.site) · [报名](https://github.com/AGN-Genesis/community/issues/new?template=01-join.yml) · [认领任务](https://github.com/AGN-Genesis/community/issues/new?template=02-claim.yml) · [提交贡献](https://github.com/AGN-Genesis/community/issues/new?template=03-contribution.yml)
+[创世首页](https://agn-genesis-knowledge.grainyfir2.chatgpt.site) · [知识库](https://agn-genesis-knowledge.grainyfir2.chatgpt.site/knowledge.html) · [报名](https://github.com/AGN-Genesis/community/issues/new?template=01-join.yml) · [认领任务](https://github.com/AGN-Genesis/community/issues/new?template=02-claim.yml) · [提交贡献](https://github.com/AGN-Genesis/community/issues/new?template=03-contribution.yml)
 
 ## 七个建设方向
 
@@ -29,3 +31,5 @@ AGN（AI 守护者网络）致力于建设由人类、AI 与资源提供者共�
 
 详见 [协作流程](CONTRIBUTING.md)、[行为规范](CODE_OF_CONDUCT.md) 和 [贡献记录](contributions/README.md)。
 
+
+[下载招募海报](https://agn-genesis-knowledge.grainyfir2.chatgpt.site/brand/AGN-poster-v2.png) · [品牌规范](https://github.com/AGN-Genesis/.github/blob/main/brand/BRAND.md)
